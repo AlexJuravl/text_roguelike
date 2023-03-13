@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
+#include <unistd.h>
 
 struct weapon
 {
@@ -29,6 +29,10 @@ int main()
 {
     int a;
     a = rand();
+
+    printf("Bla bla bla\n");
+
+    sleep(5);
 
     printf("a = %d", a);
 }
